@@ -41,8 +41,6 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     cartographer_prefix = get_package_share_directory('mini_pupper_navigation')
-    rviz_config_dir = os.path.join(get_package_share_directory('mini_pupper_navigation'),
-                                   'rviz', 'cartographer.rviz')
 
     use_sim_time = LaunchConfiguration('use_sim_time')
     cartographer_config_dir = LaunchConfiguration('cartographer_config_dir')

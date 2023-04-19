@@ -65,7 +65,7 @@ cd ~/ros2_ws
 colcon build --symlink-install
 ```
 
-Uset the below steps to test Lidar
+Uset the below steps to test Lidar using GPIO14/15 for temp test, plan to change to GPIO 0/1 in the future
 ```sh
 sudo vi /home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_description/urdf/mini_pupper_description.urdf.xacro
 # change rpy="0 0 1.57"  to rpy="0 0 -1.57" if the Lidar direction is 180 deg difference with Mini Pupper

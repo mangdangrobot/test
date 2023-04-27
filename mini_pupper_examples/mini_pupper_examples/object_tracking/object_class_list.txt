@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: Apache-2.0
+#
+# Copyright (c) 2023 MangDang
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Check mobilenet object list in mini_pupper_examples/object_list.txt
+# 0: background
+# 1: aeroplane
+# 2: bicycle
+# 3: bird
+# 4: boat
+# 5: bottle
+# 6: bus
+# 7: car
+# 8: cat
+# 9: chair
+# 10: cow
+# 11: diningtable
+# 12: dog
+# 13: horse
+# 14: motorbike
+# 15: person
+# 16: pottedplant
+# 17: sheep
+# 18: sofa
+# 19: train
+# 20: tvmonitor
